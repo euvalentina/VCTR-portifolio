@@ -49,7 +49,7 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {
-    background-image: url('https://unsplash.it/2560/1707?image=961');
+    background-color: #2D0BE2;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -115,7 +115,7 @@ header .container-fluid
 {
     padding-top: 3em;
     padding-bottom: 3em;
-    background-color: rgba(128, 215, 247, 0.660);
+    background-color: rgba(45, 11, 226, 0.660);
 }
 
 .opaline h1,
