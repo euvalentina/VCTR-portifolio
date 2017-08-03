@@ -49,12 +49,13 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {
-    background-color: #2D0BE2;
+    background-image: url(images/flores.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     padding-top: 36px;
 }
+
 
 .hamburger
 {
@@ -64,6 +65,7 @@ header .container-fluid
 
 .hamburger:hover
 {
+ -webkit-filter: none;
   color: #FFF;
   cursor: pointer;
 }
