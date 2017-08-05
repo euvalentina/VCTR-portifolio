@@ -49,7 +49,7 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {
-    background-image: url(images/flores.jpg);
+    background-image: url(images/flores1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -83,13 +83,29 @@ header .container-fluid
     text-align: center;
 }
 
-.jumbotron h1,
+ .titulo{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 23  0px;
+    padding: 5px;
+}
+
+.jumbotron small{
+    color: #000;
+}
+
+
+.jumbotron h1{
+    color: #000;
+    
+}
+
+
+
 .jumbotron h2,
 .jumbotron h3,
 .jumbotron h4,
 .jumbotron h5,
-.jumbotron h6,
-.jumbotron small
+.jumbotron h6
 {
     color: #FFFFFF;
 }
