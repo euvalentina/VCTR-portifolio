@@ -15,10 +15,10 @@ app.use(express.static(path.join(__dirname, 'mountain-king-html')));
 
 //var routes = require('./routes/routes.js')(app);
 
-console.log("Te AMO LINDA");
 
 //app.listen(1337);
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
   var addr = server.address();
+  console.log("Te AMO LINDA");
   console.log("Chat server listening at", addr.address + ":" + addr.port);
 });
