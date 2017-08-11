@@ -1,19 +1,21 @@
 {
-  "name": "node",
+  "name": "pag",
   "version": "1.0.0",
-  "description": "brincando com nodejs",
-  "main": "pagina.js",
+  "description": "Primerro contato com o nodeJs",
+  "main": "first.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "nodejs",
-    "fiap",
-    "2tinr"
+    "node",
+    "NodeJS",
+    "JS."
   ],
-  "author": "Gustavo Torrente",
+  "author": "Batuta",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mysql": "^2.14.1"
   }
 }
