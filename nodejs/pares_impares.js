@@ -1,12 +1,7 @@
-// Separe de 1 a 100 os números pares dos ímpares
-// USE FOR e IF
-// Rodem com NodeJS
-
-for (numero = 1; numero <= 100; numero++){
-  if(numero%2==0){
-    console.log(numero + ' é par');
+for (i = 0; i <= 100; i++) {
+  if (i%2) {
+    console.log(i + ' Impar');
+  }else {
+    console.log(i + ' Par');
   }
-  else{
-    console.log(numero + ' é ímpar');
-  }
-}
+};
