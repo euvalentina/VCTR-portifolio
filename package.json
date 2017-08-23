@@ -1,0 +1,19 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Servico para subir portifolio de Victoria Cristina",
+  "main": "php.js",
+  "scripts": {
+    "test": "node php.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euvalentina/VCTR-portifolio.git"
+  },
+  "author": "Vic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/euvalentina/VCTR-portifolio/issues"
+  },
+  "homepage": "https://github.com/euvalentina/VCTR-portifolio#readme"
+}
