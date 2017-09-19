@@ -13,20 +13,25 @@ header .container-fluid
 {
     height: 100vh;
     padding-top: 36px;
+    background-image: 'images/minim.jpg';
 }
 
 
 .hamburger
 {
+    padding: 3px;
     font-size: 2.3em;
-    color: #000;
+    color: #A5AED6;
+    background-color: #00010D;
+    border-radius: 5px;
 }
 
 .hamburger:hover
 {
  -webkit-filter: none;
-  color: #FFF;
-  cursor: pointer;
+  color: #b5b5b5;
+    background-color: #fff;
+    cursor: pointer;
 }
 
 
